@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chaining Selectors</title>
+    <style>
+        .avatar.proportioned {
+            width: 300px;
+        }
+
+        .avatar.distorted {
+            width: 200px;
+            height: 400px;
+        }
+    </style>
 </head>
+
 <body>
     <div>
-        <img src="./Images/pexels-katho-mutodo-8434791.jpg" class="avatar distorted" alt="">
-        <img src="./Images/pexels-andrea-piacquadio-3777931.jpg" class="avatar proportioned" alt="">
+        <img src="./Images/pexels-katho-mutodo-8434791.jpg" class="avatar proportioned" alt="">
+        <img src="./Images/pexels-andrea-piacquadio-3777931.jpg" class="avatar distorted" alt="">
     </div>
     <div>
         <img src="./Images/pexels-katho-mutodo-8434791.jpg" alt="">
         <img src="./Images/pexels-andrea-piacquadio-3777931.jpg" alt="">
     </div>
 </body>
+
 </html>
